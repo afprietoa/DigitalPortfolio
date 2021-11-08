@@ -1,13 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html {
+  overflow-x: hidden;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+#navbar {
+    background-color: #0F0E17;
+    color: white;
+    padding: 24px 72px;
+  }
+#navbar .nav-link{
+  font-family: 'Lora', serif;
+   font-size: 20px;
+   padding: 0 40px;
+   color: #fff;
+}
+#navbar .nav-link:hover{
+   color: #F25F4C;
+   text-underline-position: under;
+   text-decoration: underline;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+  #main-welcome {
+    /* min-height: 100vh; */
+    min-height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #0F0E17;
+
+  }
+  #main-welcome .intro{
+    width: 703px;
+    height: 424px;
+  }
+  #main-welcome .intro h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+  }
+  #main-welcome .intro p{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #A7A9BE;
+  }
+
+  #main-welcome .antonio{
+    width: 496px;
+    height: 462px;
+  }
+  #main-welcome .arrow{
+    width: 56px;
+    height: 56px;
+}
+
+
+/* -------------------------------- */
+.pgh-ctn{
+  max-width: 500px;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: justify;
+  padding-left: 80px;
+}
+.tlt-ctn{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 59px;
+  line-height: 56px;
+  letter-spacing: -0.005em;
+}
+.lnk-ctn{
+  max-width: 300px;
+}
+.test-main{
+  background-color: #0F0E17;
+}
+.test-ctn{
+  width: 18rem;
+  background-color: #0F0E17;
+}
+/* -------------------------------- */
+
+
+#niko {
+  height: 460px;
+  background-image: url('https://raw.githubusercontent.com/afprietoa/exsStoreProducts-251021/main/images/bg-3.png');
+  background-size: cover;
+  margin-bottom: 50px;
+}
+#principe {
+  background-image: url('https://raw.githubusercontent.com/afprietoa/exsStoreProducts-251021/main/images/bg-1.png');
+  background-size: cover;
+  height: 500px;
+}
+#amazonas {
+  background-image: url('https://raw.githubusercontent.com/afprietoa/exsStoreProducts-251021/main/images/bg-2.png');
+  background-size: cover;
+} 
+
+.project-container__card {
+  position: absolute;
+  top: 25%;
+  width: 400px;
+  background-color: #0F0E17;
+}
+
+
+#niko, #principe, #amazonas {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project-container {
+  position: relative;
+}
+.project-container__card {
+  position: absolute;
+  top: 220px;
+  min-width: 18rem;
+}
+
+#services, #form { 
+  background: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+}
+#services ul {
+  list-style: none;
+}
+#services ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bg-orange,
+.btn-orange {
+  background-color: #FF8906;
+}
+.text-orange {
+  color: #FF8906;
+}
+.btn-outline-orange {
+  border: 2px solid #FF8906 !important;
+  margin-left: 10px;
+}
+.btn-form{
+  width: 450px;
+  height: 64px;
+  font-size: 24px;
+}
+
+.testimonial-name {
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+
+  /* secondary */
+
+  color: #F25F4C;
+}
+.title-test{
+  padding-left: 80px;
+}
+
+
+#form .form-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  /* max-width: 600px; */
+    padding: 48px;
+    width: 546px;
+    height: 733px;
+    background: #0F0E17;
+}
+#form .form-ctn .form-ctn_in{
+  width: 450px;
+  height: 637px;
+}
+
+.textarea-ctn{
+  width: 450px;
+  height: 181px;
+  font-size: 24px;  
+}
+.u-textarea-ctn{
+  padding: 0 0 18px 0;
+}
+.input-ctn{
+  width: 450px;
+  height: 64px;
+  font-size: 24px;
+  
+}
+.f-input-ctn{
+  padding: 32px 0px 0px;
+}
+.l-input-ctn{
+  padding: 18px 0 18px 0;
+}
+.title-ctn{
+  width: 450px;
+  height: 56px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.005em;
+
+}
+.paragraph-ctn{
+  width: 450px;
+  height: 96px;
+  color: #A7A9BE;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 32px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.footer-container{
+  background:#0F0E17;
+  height: 145px;
+  padding: 48px;
+  box-sizing: border-box;
+}
+.footer-icon .icon-sn{
+  margin: 0 24px;
+}
+.p-footer{
+  font-size: 20px;
+  line-height: 32px;
+}
+.p-footer img{
+  width: 22px;
+}
+.icon-logo{
+  width: 68px;
+  height: 34px;
+}
+.project-title{
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.01em;
+
+/* headline */
+
+color: #FFFFFE;
+}
+.project-text{
+font-family: 'Lora', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 33px;
+/* or 167% */
+text-align: justify;
+
+
+/* paragraph */
+
+color: #A7A9BE;
+}
+.project-container__btns{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+}
+.services-title{
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+letter-spacing: -0.005em;
+
+/* background */
+
+color: #0F0E17;
+
+}
+.services-title2{
+font-family: 'Lora', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.01em;
+
+/* background */
+
+color: #0F0E17;
+}
+.test-txt{
+
+/* /Body 1/Regular */
+
+font-family: 'Lora', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 167% */
+
+
+/* headline */
+
+color: #FFFFFE;
 }
